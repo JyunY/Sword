@@ -1,0 +1,15 @@
+public class Sword {
+	
+	private String material;
+	private int attackPower;
+	
+	public Sword(String material, int attackPower) {
+		this.material = material;
+		this.attackPower = attackPower;
+	}
+	
+	public void attack() {
+		System.out.println("拿" + material + "劍捅屁眼,攻擊力:" + attackPower);
+	}
+
+}
