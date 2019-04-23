@@ -1,0 +1,12 @@
+public class SwordTest {
+
+	public static void main(String[] args) {
+		Sword goodSword = new Sword("木", 100);
+		goodSword.attack();
+		
+		
+		Sword fingerSword = new Sword("指", 1000);
+		fingerSword.attack();
+	}
+
+}
